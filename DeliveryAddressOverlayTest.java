@@ -20,6 +20,8 @@ public class DeliveryAddressOverlayTest extends GlobalTest{
 		commonFunction.addProductOnlyWhenCartIsEmpty(getData.ProdTomatoes);
 		navigation.navigateToCheckoutAndHandleOOS();
 		checkoutPage().handleCheckoutPopups();	
+		checkoutPage().handleCheckoutPopups();	
+
 	}
 
 	@BeforeMethod(alwaysRun = true)
